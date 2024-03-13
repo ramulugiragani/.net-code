@@ -1,0 +1,17 @@
+// HomeController.cs
+using System;
+using System.Web.Mvc;
+
+namespace MyWebApp.Controllers
+{
+    public class HomeController : Controller
+    {
+        // GET: Home
+        public ActionResult Index()
+        {
+            ViewBag.Message = "Welcome to my .NET web application!";
+            return View();
+        }
+    }
+}
+
